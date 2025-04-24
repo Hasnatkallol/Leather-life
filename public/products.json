@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "title": "Executive Leather Wallet",
+    "price": 700,
+    "description": "Professional wallet crafted from full-grain leather.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 2,
+    "title": "RGB Gaming Mouse Pad",
+    "price": 700,
+    "description": "Mouse pad with customizable RGB lighting.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Premium Leather Belt",
+    "price": 700,
+    "description": "Elegant leather belt perfect for formal wear.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Modern Slim Wallet",
+    "price": 800,
+    "description": "Slim wallet with minimalist design and RFID protection.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Ergonomic Gel Mouse Pad",
+    "price": 800,
+    "description": "Comfortable mouse pad with wrist support.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Designer Buckle Belt",
+    "price": 800,
+    "description": "Belt with a designer metal buckle and smooth finish.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Luxury Zipper Wallet",
+    "price": 900,
+    "description": "High-end wallet with zipper closure and coin pouch.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Large Desk Mat",
+    "price": 900,
+    "description": "Extra large mouse pad for full desk coverage.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Tactical Outdoor Belt",
+    "price": 900,
+    "description": "Durable tactical belt ideal for outdoor adventures.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Eco-Friendly Wallet",
+    "price": 700,
+    "description": "Wallet made from recycled vegan leather.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Portable Foldable Mouse Pad",
+    "price": 700,
+    "description": "Foldable and travel-friendly mouse pad.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Urban Canvas Belt",
+    "price": 700,
+    "description": "Trendy canvas belt for casual streetwear.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Compact Travel Wallet",
+    "price": 800,
+    "description": "Wallet with space for passport and travel documents.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Precision Control Mouse Pad",
+    "price": 800,
+    "description": "Optimized surface for accurate mouse movements.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Retro Studded Belt",
+    "price": 800,
+    "description": "Vintage-style belt with metal studs.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Classic Trifold Wallet",
+    "price": 900,
+    "description": "Traditional trifold wallet with ample storage.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Leather Surface Mouse Pad",
+    "price": 900,
+    "description": "Stylish mouse pad with a leather finish.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Convertible Reversible Belt",
+    "price": 900,
+    "description": "Reversible belt with interchangeable buckle.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Slim RFID Wallet",
+    "price": 750,
+    "description": "Minimalist wallet with RFID-blocking lining.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Cooling Gel Mouse Pad",
+    "price": 850,
+    "description": "Mouse pad with a gel layer that stays cool.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Textured Suede Belt",
+    "price": 850,
+    "description": "Soft suede belt with textured detailing.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Zip Card Wallet",
+    "price": 850,
+    "description": "Wallet with zipper pouch and card slots.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Microfiber Mouse Pad",
+    "price": 750,
+    "description": "Soft microfiber surface for smooth gliding.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Minimalist Pin Belt",
+    "price": 750,
+    "description": "Simple and sleek belt with pin buckle.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Tri-Fold Leather Wallet",
+    "price": 950,
+    "description": "Elegant tri-fold wallet with ID window.",
+    "category": "Wallet",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Desk-Sized RGB Mouse Pad",
+    "price": 950,
+    "description": "Oversized RGB mouse pad for gaming setup.",
+    "category": "MousePad",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Braided Leather Belt",
+    "price": 950,
+    "description": "Casual braided belt with antique buckle.",
+    "category": "Belt",
+    "image": "https://i.ibb.co/PsJYt8C5/belt.jpg"
+  }
+]

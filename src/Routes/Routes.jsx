@@ -3,10 +3,14 @@ import {
     RouterProvider,
   } from "react-router";
 import Mainlayout from "../Layout/Mainlayout";
-import Home from "../Components/Home";
+
 import About from "../Pages/About";
 import Contact from "../Pages/Contact";
 import Errorpage from "../Components/Errorpage";
+import Spinner from "../Components/Spinner";
+import Home from "../Components/Home";
+import Details from "../Components/Details";
+
 
  export const router = createBrowserRouter([
     {
@@ -18,18 +22,25 @@ import Errorpage from "../Components/Errorpage";
         { 
              index: true,
              Component: Home,
-            //  hydrateFallbackElement: <Spinner></Spinner>,       
+             loader:() => fetch('../products.json'),
+             hydrateFallbackElement: <Spinner></Spinner>,       
         },
         { 
             path: "about",
             Component: About,
-           //  hydrateFallbackElement: <Spinner></Spinner>,       
+            hydrateFallbackElement: <Spinner></Spinner>,       
        },
        { 
         path: 'contact',
         Component: Contact,
-       //  hydrateFallbackElement: <Spinner></Spinner>,       
+        hydrateFallbackElement: <Spinner></Spinner>,       
    },
+   { 
+    path: "details/:id",
+    loader:() => fetch('../products.json'),
+    Component: Details,
+    hydrateFallbackElement: <Spinner></Spinner>,       
+},
 
       ]
     },
