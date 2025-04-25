@@ -20,7 +20,7 @@ const Details = () => {
       <div className="flex justify-center items-center w-11/12 mx-auto">
         <img src={image} className="w-11/12 md:w-auto mb-8 mx-auto" alt="" />
       </div>
-      <div className="flex justify-between mb-5 ">
+      <div className="flex lg:hidden justify-between mb-5 ">
             <button className="w-25 h-10 rounded-2xl border-none bg-[#0b5361] hover:bg-[#257282] text-white">
               Add To Cart{" "}
             </button>
@@ -28,24 +28,24 @@ const Details = () => {
               Add To Favorites
             </button>
           </div> 
-      <Link to={"/"}>
+      {/* <Link to={"/"}>
         {" "}
         <button className="w-25 h-8 hidden lg:block rounded-2xl border-none bg-[#0b5361] hover:bg-[#257282] text-white">
           Back
         </button>{" "}
-      </Link>
+      </Link> */}
 
       <div className="flex justify-between">
         <h1 className="lg:text-6xl text-3xl font-bold lg:font-thin mb-8">{title}</h1>
         <div className="space-x-2">
-          {/* <div className="flex gap-10">
+          <div className="lg:flex hidden gap-10">
             <button className="w-25 h-12 rounded-2xl border-none bg-[#0b5361] hover:bg-[#257282] text-white">
               Add To Cart{" "}
             </button>
             <button className="w-25 h-12 rounded-2xl border-none bg-[#0b5361] hover:bg-[#257282] text-white">
               Add To Favorites
             </button>
-          </div> */}
+          </div>
         </div>
       </div>
       <div className="space-y-4">
@@ -62,14 +62,15 @@ const Details = () => {
           <span className="font-bold text-2xl">{description}</span>
         </p>
       </div>
+      <Link to={"/"}>
+        {" "}
+        <button className="w-25 h-8 hidden mt-2 lg:block rounded-2xl border-none bg-[#0b5361] hover:bg-[#257282] text-white">
+          Back
+        </button>{" "}
+      </Link>
     </div>
 
-    // <div className='w-11/12 mx-auto'>
-    //     <h2>Details</h2>
-    //     <Link to={'/'}>
-    //    <button className="w-25 h-8 rounded-2xl border-none bg-[#0b5361] hover:bg-[#257282] text-white">Back</button>
-    //    </Link>
-    // </div>
+   
   );
 };
 

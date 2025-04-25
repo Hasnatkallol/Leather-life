@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { NavLink } from "react-router";
+import { Link, NavLink } from "react-router";
 import { FaCartArrowDown } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { CartContext } from "../Provider/Context";
@@ -14,7 +14,7 @@ const { searchText,setSearchText } = useContext(CartContext)
     <div>
       <div className="navbar p-0 bg-base-100 my-2 w-full lg:w-11/12 mx-auto">
         <div className="navbar-start">
-          <img src="/logo.jpg" alt="" className="rounded-full w-10 h-10 lg:w-15 lg:h-15 ml-2" />
+         <Link to={'/'}> <img src="/logo.jpg" alt="" className="rounded-full w-10 h-10 lg:w-15 lg:h-15 ml-2" /></Link>
         </div>
 
         <div className="navbar-center hidden lg:flex">
@@ -51,16 +51,15 @@ const { searchText,setSearchText } = useContext(CartContext)
             </NavLink>
           </ul>
         </div>
-        {/* Mid */}
-        <input value={searchText} onChange={e=> setSearchText(e.target.value)} type="text" placeholder="Search Products" className="pl-2 lg:hidden border-1 border-gray-400 focus:outline-none rounded-2xl
-           w-25 text-xs h-8" />
+        {/* Mid or large input */}
+        {/* <input value={searchText} onChange={e=> setSearchText(e.target.value)} type="text" placeholder="Search Products" className="pl-2 lg:hidden border-1 border-gray-400 focus:outline-none rounded-2xl
+           w-30 text-xs h-8" /> */}
 
         <div className="navbar-end">
           
           <div className="flex items-center gap-2">
-          {/* <input type="text" placeholder="Search Products" className="pl-5 hidden lg:block border-1 border-gray-400 focus:outline-none rounded-2xl
-           w-40 h-8" /> */}
-          <FaCartArrowDown className="" size={25}/>
+      
+          <FaCartArrowDown className="mr-2" size={25}/>
           <FaHeart className="mr-1" size={25} />
           </div>
       

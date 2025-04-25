@@ -55,7 +55,7 @@ const Products = ({ products }) => {
            <button onClick={()=>{
             setShowAll(prev=> !prev)
             if (showAll) window.scroll(0,400)
-           }} className='btn my-5 text-center justify-center items-center flex mx-auto'> { showAll ? 'Show Less' : 'Show All'} </button>
+           }} className='btn my-5 text-center justify-center items-center flex mx-auto bg-[#0b5361] hover:bg-[#257282] text-white'> { showAll ? 'Show Less' : 'Show All'} </button>
        </div>
     );
 };
